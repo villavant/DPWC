@@ -1,0 +1,36 @@
+/*
+Theme Name: Momento
+Version: 1.0
+Author: ProgressionStudios
+Author URI: http://themeforest.net/user/ProgressionStudios?ref=ProgressionStudios
+*/
+@import url(reset.css);
+@import url(standard.css);   /*   Main Styles */
+@import url(navigation.css);  /*   Navigation Styles */
+@import url(fancybox.css);  /*   LightBox Styles */
+@import url(orbit-1.2.3.css);  /*   Simple Slider */
+
+
+/*====================================================
+Logo Size and File Location
+====================================================*/
+#header-nav #logo h1 a {width:280px; height:64px; background: url(../images/logo.png) top left no-repeat;}
+
+
+/*====================================================
+Menu Background Color - Default: #252525
+====================================================*/
+#header-nav-container {background-color:#002040;}
+
+
+/*====================================================
+Link and Button Color - Default: #b62c2c
+====================================================*/
+a.show-case-button {background-color:#b62c2c;} 
+a {color:#b62c2c; text-decoration:none;}  
+
+
+/*====================================================
+Footer Background Color - Default: #5a5959
+====================================================*/
+#footer-container, body#footer-contact {background-color:#5a5959;}
