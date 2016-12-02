@@ -64,30 +64,7 @@
 	
 	<div id="portfolio">
 		
-		<div class="container">
-			<div class="grid3column">
-				<a href="images/portfolio/portfolio1.jpg" class="fancylightbox" title="Title can be filled in or removed easily">
-					<img src="{{ asset('images/portfolio/portfolio1thumb.jpg') }}" width="285" height="178" alt="portfolio" class="transparent" />
-				</a>
-				<h4>Print starts conversation</h4>
-				<p>Nullam pretium enim sed lectus pulvi nar accum. Donec place nisl sit amet.</p>
-				<a href="{{ asset('images/portfolio/portfolio1.jpg') }}" title="Title can be filled in or removed easily" class="button fancylightbox">View more &rsaquo;</a>
-			</div>
-			<div class="grid3column">
-				<a href="http://player.vimeo.com/video/18720171?portrait=0" class="videolightbox">
-					<img src="{{ asset('images/portfolio/portfolio2thumb.jpg') }}" width="285" height="178" alt="portfolio" class="transparent" />
-				</a>
-				<h4>Vimeo Lightbox Example</h4>
-				<p>Nullam pretium enim sed lectus pulvi nar accum. Donec place nisl sit amet.</p>
-				<a href="http://player.vimeo.com/video/18720171?portrait=0" class="button videolightbox">View more &rsaquo;</a>
-			</div>
-			<div class="grid3column lastcolumn">
-				<a href="{{ asset('images/portfolio/portfolio3.jpg') }}" class="fancylightbox" title="Title can be filled in or removed easily"><img src="images/portfolio/portfolio3thumb.jpg" width="285" height="178" alt="portfolio" class="transparent" /></a>
-				<h4>Say it in print</h4>
-				<p>Nullam pretium enim sed lectus pulvi nar accum. Donec place nisl sit amet.</p>
-				<a href="{{ asset('images/portfolio/portfolio3.jpg') }}" title="Title can be filled in or removed easily" class="button fancylightbox">View more &rsaquo;</a>
-			</div>
-		</div>
+		
 
 
 		<div class="divider"></div>
